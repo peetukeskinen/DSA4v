@@ -1,7 +1,7 @@
 # Debt Sustainability Analysis (DSA) tool	
 ### Version 4
 
-This repository contains Debt Sustainability Analysis (DSA) tool used in the debt ratio projections published in the [blog post]https://www.vtv.fi/en/blog/the-length-of-the-adjustment-plan-in-the-reformed-eu-debt-rules-is-of-great-importance-to-finland/. This version 4 updates version 2 published in chapter 3 of [Fiscal Policy Monitoring Report 2023]https://www.vtv.fi/en/publications/fiscal-policy-monitoring-report-2023/ published by NAOF's Fiscal Policy Monitoring Unit. 
+This repository contains Debt Sustainability Analysis (DSA) tool used in the debt ratio projections published in the [blog post](https://www.vtv.fi/en/blog/the-length-of-the-adjustment-plan-in-the-reformed-eu-debt-rules-is-of-great-importance-to-finland/). This version 4 updates version 2 published in chapter 3 of [Fiscal Policy Monitoring Report 2023](https://www.vtv.fi/en/publications/fiscal-policy-monitoring-report-2023/) published by NAOF's Fiscal Policy Monitoring Unit. 
 
 The code was successfully run with Windows 10 (64-bit) and MATLAB R2020b. The files needed to run the MATLAB code are:
 
@@ -11,10 +11,10 @@ The code was successfully run with Windows 10 (64-bit) and MATLAB R2020b. The fi
 #### 2c) helper function formatWithSpaces.m to format numbers in figures,
 #### 3)	data file AmecoFinlandData4v_1.xlsx.
 
-The main function runDsaStochModel4_blog.m calculates minimum yearly adjustment for four-year adjustment plan for Finland. Version 4 do not consider (yet) all of the criteria. Based on [Commission Debt Sustainability Monitor 2023]https://economy-finance.ec.europa.eu/document/download/e3a23fba-1402-4cc9-b571-7473b5e7842a_en?filename=ip271_en.pdf, the version includes:
+The main function runDsaStochModel4_blog.m calculates minimum yearly adjustment for four-year adjustment plan for Finland. Version 4 do not consider (yet) all of the criteria. Based on [Commission Debt Sustainability Monitor 2023](https://economy-finance.ec.europa.eu/document/download/e3a23fba-1402-4cc9-b571-7473b5e7842a_en?filename=ip271_en.pdf), the version includes:
 
 ## DSA-based criteria (deterministic and stochastic scenarios)
-## Debt Sustainability Safeguard (article 6a)
+## Debt Sustainability Safeguard ([article 6a](https://www.consilium.europa.eu/media/70386/st06645-re01-en24.pdf)
 
 Resulting output and graphs can be saved in the current folder as .txt and .png files.
  
