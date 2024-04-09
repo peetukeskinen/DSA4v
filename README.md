@@ -13,8 +13,8 @@ The code was successfully run with Windows 10 (64-bit) and MATLAB R2020b. The fi
 
 The main function runDsaStochModel4_blog.m calculates minimum yearly adjustment for four-year adjustment plan for Finland. Version 4 do not consider (yet) all of the criteria. Based on [Commission Debt Sustainability Monitor 2023](https://economy-finance.ec.europa.eu/document/download/e3a23fba-1402-4cc9-b571-7473b5e7842a_en?filename=ip271_en.pdf), the version includes:
 
-### DSA-based criteria (deterministic and stochastic scenarios)
-### Debt Sustainability Safeguard ([article 6a](https://www.consilium.europa.eu/media/70386/st06645-re01-en24.pdf))
+DSA-based criteria (deterministic and stochastic scenarios)
+Debt Sustainability Safeguard ([article 6a](https://www.consilium.europa.eu/media/70386/st06645-re01-en24.pdf))
 
 Resulting output and graphs can be saved in the current folder as .txt and .png files.
  
