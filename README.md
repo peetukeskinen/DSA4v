@@ -13,8 +13,8 @@ The code was successfully run with Windows 10 (64-bit) and MATLAB R2020b. The fi
 
 The main function runDsaStochModel4_blog.m calculates minimum yearly adjustment for four-year adjustment plan for Finland. Version 4 do not consider (yet) all of the criteria. Based on [Commission Debt Sustainability Monitor 2023](https://economy-finance.ec.europa.eu/document/download/e3a23fba-1402-4cc9-b571-7473b5e7842a_en?filename=ip271_en.pdf), the version includes:
 
-## DSA-based criteria (deterministic and stochastic scenarios)
-## Debt Sustainability Safeguard ([article 6a](https://www.consilium.europa.eu/media/70386/st06645-re01-en24.pdf)
+### DSA-based criteria (deterministic and stochastic scenarios)
+### Debt Sustainability Safeguard ([article 6a](https://www.consilium.europa.eu/media/70386/st06645-re01-en24.pdf))
 
 Resulting output and graphs can be saved in the current folder as .txt and .png files.
  
@@ -26,9 +26,14 @@ Selection for scenario and SFA method can be made when passing function argument
 
 DSA projections can be made with or without considering debt sustainability safeguard. Plotting can be selected on or off. Number of samples and method used in the stochastic simulations can be set. Also language and saving option is available.
 
-Example to run the main function:
+AmecoFinlandData4v_1.xlsx contains all the necessary data to run the main code. Tab COM in the Excel file contains data and tab DataSources describes the data sources and some clarifying definitions. COM data is from Commission 2023 autumn forecast round. STOCH tab includes data used in the stochastic simulations. All data is from publicly available sources expect financial market data which cannot be shared and must be separately downloaded via a Bloomberg Terminal. AMECO data can be accessed here. Variables can be found using AMECO variable codes listed in the Excel file under the tab DataSources (e.g. FIN.1.0.0.0.AYIGD). COM projections for some variables can be found here.
 
-## runDsaStochModel4_blog(0,1,1,1,3,7,1,1,0)
+For comments and suggestions, please contact peetu.keskinen@vtv.fi.
+
+## Example
+
+Example to run the main function:
+### runDsaStochModel4_blog(0,1,1,1,3,7,1,1,0)
 
 Above command runs the function with COM ZERO ASSUMPTION,ADJUSTMENT,
 DEBT SAFEGUARD, PLOTTING, 1000 simulations, 70% plausibility value,
@@ -70,7 +75,4 @@ These are described below:
     Save results as -mat (OPTIONAL)
         1 = save
 
-AmecoFinlandData4v_1.xlsx contains all the necessary data to run the main code. Tab COM in the Excel file contains data and tab DataSources describes the data sources and some clarifying definitions. COM data is from Commission 2023 autumn forecast round. STOCH tab includes data used in the stochastic simulations. All data is from publicly available sources expect financial market data which cannot be shared and must be separately downloaded via a Bloomberg Terminal. AMECO data can be accessed here. Variables can be found using AMECO variable codes listed in the Excel file under the tab DataSources (e.g. FIN.1.0.0.0.AYIGD). COM projections for some variables can be found here.
 
-
-For comments and suggestions, please contact peetu.keskinen@vtv.fi.
