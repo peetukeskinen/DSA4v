@@ -33,7 +33,7 @@ The file `AmecoFinlandData4v_1.xlsx` contains all necessary data for the tool. U
 ### Contact
 For any inquiries or feedback, please contact peetu.keskinen@vtv.fi.
 
-## How to Reproducing Figures in the Blog Post
+## How to Reproduce Figures in the Blog Post
 
 To replicate figures from the [blog post](https://www.vtv.fi/en/blog/the-length-of-the-adjustment-plan-in-the-reformed-eu-debt-rules-is-of-great-importance-to-finland/), use commands below in MATLAB.
 Please note that it takes some time to produce 100 000 simulations. User can reduce the number of simulations by changing 5th argument in the function (see details below). Recommended minimum number of simulations are 1000.
