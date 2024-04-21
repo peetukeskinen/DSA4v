@@ -42,19 +42,19 @@ Please note that it takes some time to produce 100 000 simulations. User can red
 ```matlab
 runDsaStochModel4_blog(0,1,1,0,5,7,1,1,0)
 ```
-**Configuration:** COM Zero Assumption, Adjustment scenario, no Debt Safeguard, no Plotting, 100 000 simulations, _70% plausibility_, English output, _Normal simulation method_, no output saving.
+**Configuration:** COM SFA Zero Assumption, Adjustment scenario, no Debt Safeguard, no Plotting, 100 000 simulations, *70% plausibility*, English output, *Normal simulation method*, no output saving.
 
 ### Figure 2
 ```matlab
 runDsaStochModel4_blog(0,1,1,0,5,7,1,2,0)
 ```
-**Configuration:** COM Zero Assumption, Adjustment scenario, no Debt Safeguard, no Plotting, 100 000 simulations, _70% plausibility_, English output, _Bootstrap simulation method_, no output saving.
+**Configuration:** COM SFA Zero Assumption, Adjustment scenario, no Debt Safeguard, no Plotting, 100 000 simulations, *70% plausibility*, English output, *Bootstrap simulation method*, no output saving.
 
 ### Figure 1
 ```matlab
 runDsaStochModel4_blog(0,1,1,0,5,8,1,2,0)
 ```
-**Configuration:** COM Zero Assumption, Adjustment scenario, no Debt Safeguard, no Plotting, 100 000 simulations, _80% plausibility_, English output, _Bootstrap simulation method_, no output saving.
+**Configuration:** COM SFA Zero Assumption, Adjustment scenario, no Debt Safeguard, no Plotting, 100 000 simulations, *80% plausibility*, English output, *Bootstrap simulation method*, no output saving.
 
 ### Configuration Options
 - **SFA Method:**
@@ -85,6 +85,7 @@ runDsaStochModel4_blog(0,1,1,0,5,8,1,2,0)
   - 2 for Bootstrap
 - **Save results as .mat (Optional):**
   - 1 to save
+  - 0 not to save
 
 
 
