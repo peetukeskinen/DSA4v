@@ -42,18 +42,24 @@ Please note that it takes some time to produce 100 000 simulations. User can red
 ```matlab
 runDsaStochModel4_blog(0,1,1,0,5,7,1,1,0)
 ```
+![Figure 1](figure/figure1.png)
+
 **Configuration:** COM SFA Zero Assumption, Adjustment scenario, no Debt Safeguard, no Plotting, 100 000 simulations, *70% plausibility*, English output, *Normal simulation method*, no output saving.
 
 ### Figure 2
 ```matlab
 runDsaStochModel4_blog(0,1,1,0,5,7,1,2,0)
 ```
+![Figure 2](figure/figure2.png)
+
 **Configuration:** COM SFA Zero Assumption, Adjustment scenario, no Debt Safeguard, no Plotting, 100 000 simulations, *70% plausibility*, English output, *Bootstrap simulation method*, no output saving.
 
-### Figure 1
+### Figure 3
 ```matlab
 runDsaStochModel4_blog(0,1,1,0,5,8,1,2,0)
 ```
+![Figure 3](figure/figure3.png)
+
 **Configuration:** COM SFA Zero Assumption, Adjustment scenario, no Debt Safeguard, no Plotting, 100 000 simulations, *80% plausibility*, English output, *Bootstrap simulation method*, no output saving.
 
 ### Configuration Options
